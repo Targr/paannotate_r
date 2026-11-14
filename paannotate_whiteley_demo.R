@@ -9,7 +9,7 @@ install.packages(c("BiocManager", "readxl", "openxlsx", "pheatmap", "yaml"))
 
 BiocManager::install(c("edgeR", "limma", "fgsea", "goseq"))
 
-install.packages("INSERT PATH/paannotate_0.7.0.tar.gz", repos=NULL, type="source")
+install.packages("INSERT PATH/paannotate_1.0.4.9001", repos=NULL, type="source")
 #repos = null means you're installing from a local file
 #type=source just means that what you're installing is the package itself instead of a part of one
 
